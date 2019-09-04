@@ -1,0 +1,91 @@
+body{
+    background-color: lightgray;
+    margin: 0;
+}
+#wrap{
+    background-color: white;
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+    position: relative;
+
+}
+
+@media only screen and (max-width: 600px){
+    #wrap{
+        width: 100%;
+    }
+}
+
+.container {
+    position: relative;
+    
+    /*display: block;
+    margin-left: auto;
+    margin-right: auto;*/
+}
+
+.img-responsive{
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+
+#card{
+    
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+#card-text{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    background-color: rgba(0, 204, 255, 0.534);
+    transform: translate(-50%, -50%);
+    width: 70%;
+    /*position: absolute;
+    top: 60%;
+    color: red;
+    background-color: rgba(0, 140, 255, 0.342);
+    width: 350px;
+    height: 40%;
+    max-width: 60%;*/
+}
+#text-test{
+    bottom: 16px;
+    left: 12px;
+    display: block;
+    margin: 0 auto;
+}
+
+#logo{
+    color:blue;
+    text-align: center;
+    font-size: 200%;
+}
+#ok{
+    border: 20px;
+    color: red;
+    text-align: center;
+}
+#picture{
+    background-color: blue;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+
+}
+#image{
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
