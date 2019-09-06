@@ -28,7 +28,7 @@ body{
 
 .container {
     position: relative;
-    width: 350px;
+    width: 320px;
     /*display: block;
     margin-left: auto;
     margin-right: auto;*/
@@ -47,6 +47,13 @@ body{
     color: white;
     padding-left: 20px;
     padding-right: 20px; 
+}
+#modal-button{
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    display: block;
 }
 
 #overlay{
