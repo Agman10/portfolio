@@ -56,7 +56,8 @@ body{
     display: block;
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    max-height: 200vh;
     
 }
 #window{
@@ -81,8 +82,10 @@ padding-top: 2px;
 padding-left: 2px;
 padding-right: 2px; 
 }
-.btn-danger{
-
+#close-button{
+    padding: .100rem .500rem;
+    float: right;
+    
 }
 /*
 .img-responsive{
